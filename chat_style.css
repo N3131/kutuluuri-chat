@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html, body {
+    height: 720px;
+    width: 1280px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 100%;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    background-color: #283044;
+}
+
+main {
+    height: 648px;
+    width: 1280px;
+    text-align: center;
+    align-content: center;
+    font-family: 'Rock Salt';
+    color: darkorchid;
+    padding-top: 18px;
+    background: radial-gradient(circle, rgba(227,202,240,1) 9%, rgba(70,70,70,1) 69%, rgba(24,24,24,1) 100%);
+    }
+
+#chatSection {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    width: 100%;
+    color: black;
+}
+
+#hand {
+    height: 640px;
+    background-image: url("images/hand.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center top;
+    margin: 0;
+}
+
+#love {
+    width: 18px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 1000;
+    display: inline-block;
+    position: absolute;
+    margin: 50px -390px;
+}
+
+.loveBar {
+    width: 18px;
+    height: 40%;
+    background-color: #c782aa;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+#noClicks {
+    width: 860px;
+    height: 141px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: grey;
+    opacity: 0.2;
+    z-index: 10;
+    position: absolute;
+    display: none;
+
+}
+
+#noScreenClicks {
+    padding-top: 35px;
+    height: 384px;
+    width: 270px;
+    z-index: 10;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+}
+
+#toNextPart {
+    height: 26.7vw;
+    width: 17.6vw;
+    z-index: 10;
+    position: absolute;
+    display: none;
+    background-color: #c782aa;
+}
+
+#playerCards {
+    width: 860px;
+    height: 141px;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: white;
+}
+
+.cardStyle {
+    width: 90px;
+    height: 100px;
+    padding: 8px 6px;
+    background-color: rgb(211, 211, 211);
+    display: none;
+    margin: 8px;
+    word-wrap: break-word;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.card2Style {
+    background-color: black;
+    color: white;
+}
+
+div.cardStyle:hover {
+     width: 92px;
+    height: 104px;
+    cursor: pointer;
+}
+
+.chatBubble {
+    max-width: 180px;
+    height: auto;
+    padding: 8px;
+    background-color: #c782aa;
+    display: inline-block;
+    margin: 8px 16px 8px 40%;
+    border-radius: 3px;
+    text-align: left;
+    float: right;
+    word-wrap: break-word;
+}
+
+.dateAnswer {
+    max-width: 180px;
+    height: auto;
+    padding: 8px;
+    background-color: #f7edf3;
+    display: inline-block;
+    margin: 8px 40% 8px 16px;
+    border-radius: 3px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+#phone {
+    height: 428px;
+    width: 326px;
+    margin: 0 auto;
+    padding: 35px 16px 34px;
+    background-color: none;
+    background: url("images/PlaceholderPhone.png") center center no-repeat;
+    background-size: auto 100%;
+    overflow-y: hidden;
+    text-align: right;
+}
+
+#chat {
+    height: 418px;
+    width: 270px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffffff;
+    overflow-y: hidden;
+    text-align: left;
+}
+
+#endChat {
+    height: 418px;
+    width: 270px;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    z-index: 30;
+    text-align: center;
+}
+
+#endButton {
+    height: auto;
+    font-size: 1.8em;
+    width: auto;
+    padding: 0.5vw 0.5vw;
+    color: black;
+    background-color: white;
+    border: none;
+    margin: 12vw 3vw;
+    display: inline-block;
+}
+
